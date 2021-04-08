@@ -1,0 +1,104 @@
+ul{
+    list-style-type:None;
+
+}
+li{
+    float:right ;
+}
+
+.img_izquierda{
+    float: left;
+    
+}
+.centrar_texto{
+    text-align: center;
+}
+.texto_derecha{
+    float: right;
+}
+.subtitulo_izquierda{
+    text-align: left;
+    padding-left: 8%;
+}
+
+
+
+.fondo_gris{
+    background-color: rgb(49, 49, 49);;
+    color: white;
+    margin: 0px 0px;
+    font: 100% sans-serif;
+}
+.fondo_celeste{
+    background-color: rgb(29, 207, 252);
+    float: center;
+    text-align: center;
+    padding: 1%;
+    height:  23%;
+    border: 0px;
+    margin-left: 20%;
+    margin-right: 50px;
+}
+.fondo_amarillo{
+    background-color: yellow;
+    float: center;
+    text-align: center;
+    padding: 1%;
+    height:  23%;
+    border: 0px;
+    margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 50px;
+}    
+
+.fondo_naranja{
+    background-color: orange;
+    float: center;
+    text-align: center;
+    padding: 1%;
+    height:  23%;
+    border: 0px;
+    margin-left: 20%;
+    margin-right: 50px;
+}    
+
+.fondo_rojo{
+    background-color: red;
+    float: center;
+    text-align: center;
+    padding: 1%;
+    height:  24%;
+    border: 0px;
+    margin-left: 20%;
+    margin-right: 50px;
+}    
+
+
+
+.vertical-menu {
+    width: 20%; /* Set a width if you like */
+    height: 20%;
+    float: left;
+    padding-top: 50px;
+
+  }
+  
+.vertical-menu a {
+    background-color:rgb(49, 49, 49); /* Grey background color */
+    color: white; /*  text color */
+    display: block; /* Make the links appear below each other */
+    padding: 3% 7%; /* Add some padding */
+    
+
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+.vertical-menu a:hover {
+    /*background-color: rgb(163, 19, 19);  Dark grey background on mouse-over */
+    color: gray;
+}
+  
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+  }
